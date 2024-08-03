@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "final-poc"
+version = "0.1.0"
+description = ""
+authors = ["Ketan Kunkalikar <ketankunkalikar33@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+langgraph = "^0.1.16"
+langchain-core = "^0.2.24"
+langchain-openai = "^0.1.19"
+tavily-python = "^0.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
